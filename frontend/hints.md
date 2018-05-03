@@ -28,17 +28,11 @@ If you decide to follow the object-oriented paradigm, consider the following:
 * The basic syntax of a fetch request is:
 
   fetch("INSERT URL HERE", {
-
     method: 'INSERT GET/POST/PATCH/DELETE',
-
     headers: {
-
       "Content-Type": "application/json"
-
     },
-
     body: JSON.stringify(INSERT DATA YOUR WANT TO SEND TO THE API)
-
   }).then(response => response.json())
 
 * The header and body arguments are not necessary for GET and DELETE fetch requests
