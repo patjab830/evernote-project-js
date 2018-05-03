@@ -25,6 +25,7 @@ If you decide to follow the object-oriented paradigm, consider the following:
 
 ### Cheat Sheet
 
+* Get the URL for your fetch requests using 'rails routes'
 * The basic syntax of a fetch request is:
 
   fetch("INSERT URL HERE", {
@@ -43,5 +44,12 @@ If you decide to follow the object-oriented paradigm, consider the following:
   })
 
 * Remember to use event.preventDefault() on form submit events
+* The basic syntax for an HTML form is:
 
-.
+<form>
+  Label 1:<br/>
+  <input type="text"><br/>
+  Label 2:<br/>
+  <input type="text"><br/><br/>
+  <input type="submit" value="Submit">
+</form>
