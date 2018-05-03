@@ -1,9 +1,8 @@
-### Possible First Steps
+### Suggested First Steps
 
+* Set up your Note and User classes
 * Figure out how to get the seeded data to appear in the Note List upon page load
 * Set up your Create New Note form and add a form submit event listener to it
-* Set up your Note and User classes
-
 
 ### Object-Oriented
 
