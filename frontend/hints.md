@@ -28,6 +28,7 @@ If you decide to follow the object-oriented paradigm, consider the following:
 * Get the URL for your fetch requests using 'rails routes'
 * The basic syntax of a fetch request is:
 
+```
   fetch("INSERT URL HERE", {
     method: 'INSERT GET/POST/PATCH/DELETE',
     headers: {
@@ -35,17 +36,21 @@ If you decide to follow the object-oriented paradigm, consider the following:
     },
     body: JSON.stringify(INSERT DATA YOUR WANT TO SEND TO THE API)
   }).then(response => response.json())
+```
 
 * The header and body arguments are not necessary for GET and DELETE fetch requests
 * The basic syntax of an event listener is:
 
+```
   INSERT SOME HTML ELEMENT.addEventListener('INSERT EVENT TYPE', function(event){
 
   })
+```
 
 * Remember to use event.preventDefault() on form submit events
 * The basic syntax for an HTML form is:
 
+```
 <form>
   Label 1:<br/>
   <input type="text"><br/>
@@ -53,3 +58,4 @@ If you decide to follow the object-oriented paradigm, consider the following:
   <input type="text"><br/><br/>
   <input type="submit" value="Submit">
 </form>
+```
