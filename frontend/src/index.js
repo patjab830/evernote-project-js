@@ -5,8 +5,5 @@ document.addEventListener("DOMContentLoaded", function() {
   const noteList = document.getElementById('note-list')
   const mainDiv = document.getElementById('main')
 
-  noteList.addEventListener('click', function(event){
-
-  })
 
 });
