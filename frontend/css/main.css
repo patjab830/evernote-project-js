@@ -18,7 +18,7 @@ body {
     font-size: 12px;
 }
 
-#main, #main2, h1 {
+#main, h1 {
     margin-left: 310px; /* Same as the width of the sidebar */
     padding: 20px 10px;
 }
